@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Task } from '../../models/task.class';
 
 
-const TaskComponent = ({task}) => {
+const TaskComponent = ({ task }) => {
     return (
         <div>
             <h2>Nombre: { task.name }</h2>
